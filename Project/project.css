@@ -1,0 +1,72 @@
+
+/*Nav Menu Formatting*/
+
+*{
+  background-color: white;
+}
+ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*fixed page position for nav menu*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li{
+  display: inline;
+  float: left;
+  /*Add a gray right border to all list items*/
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;}
+
+li a{
+  background-color: linen;
+  display: block;
+  color: black; 
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+}
+li a:hover{background-color: lightsteelblue;}
+
+p{text-align: justify;}
+
+#pageHeader{
+  /*padding:10%;*/
+  margin: auto;
+}
+#Oakland{
+  text-align: center;
+}
+#CampSunshine{
+  text-align: center;
+}
+#Traders{
+  text-align: center;
+}
+
+#movies{
+  text-align: center;
+}
+
+#Intro{
+  text-align: center;
+}
+#FRC{
+  text-align: center;
+}
+h1{
+  border-style: dotted;
+  border-color: black;
+  border-radius: 1px;
+  text-align: center;
+}
+
+h3{
+  font-size:x-large;
+}
+p{
+  font-size: larger;
+}
